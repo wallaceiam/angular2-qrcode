@@ -42,7 +42,7 @@ import {QRCodeComponent} from 'angular2-qrcode';
   directives: [QRCodeComponent],
   template: `
     <div>
-      <qr-code [data]="'All QR Code data goes here!'" [size]="150"></qr-code>
+      <qr-code [value]="'All QR Code data goes here!'" [size]="150"></qr-code>
     </div>
   `
 })
